@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "./base.json",
+    "compilerOptions": {
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "incremental": true,
+        "target": "ES2023",
+        "strictNullChecks": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictBindCallApply": false,
+        "noFallthroughCasesInSwitch": false,
+        "sourceMap": true,
+        "module": "NodeNext",
+        "esModuleInterop": true,
+    }
+}
