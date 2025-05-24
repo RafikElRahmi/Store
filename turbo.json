@@ -20,6 +20,10 @@
     "start:dev" :{
       "persistent": true,
       "cache": false
+    },
+    "add:start": {
+        "persistent": true,
+        "cache": false
     }
   }
 }
